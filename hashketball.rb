@@ -2,8 +2,17 @@ require "pry"
 
 def game_hash
   hash = {
-
+#Home and away = 1st level 
  :home => {
+   #team_name, colors, players = keys for 2nd level
+   #players is then nested deeper by linking value of an array; which includes additional keys/ value
+   #"Andy, Reggie, ets" are keys followed by another hash that has key/value of each players stats
+   
+   #home - 1st level 
+   #team name - 2nd level -- key
+   #players - 2nd level -- key, followed by the name of each player as a value.
+   #points (key) - 3rd level, followed by integer as the value
+   
  :team_name => "Brooklyn Nets",
  :colors => ["Black", "White"],
  :players => [
@@ -58,10 +67,10 @@ end
 #end end end end
 
 def num_points_scored(team_name)
-  game_hash.each do |person, team_data|
-    game_hash.each do |attribute, data|
+  game_hash.each_pair do |person, team_data|
+    game_hash.each_pair do |attribute, data|
       if attribute == :player_name
-        data.each do |points|
+        data.each_pair do |points|
     puts "#{points}: #{player_name}"
 end
 end
