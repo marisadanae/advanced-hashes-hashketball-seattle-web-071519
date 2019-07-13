@@ -130,7 +130,7 @@ end
 end
 end
 end
-end
+
 def big_shoe_rebounds
     biggest_shoe = 0
     num_rebounds = 0
@@ -163,8 +163,6 @@ end
     team_member[:points]
 end
 
-
-
 def winning_team
     home_points = 0
     away_points = 0
@@ -176,6 +174,7 @@ end
 end
     home_points > away_points ? game_hash[:home][:team_name] : game_hash[:away][:team_name]
 end
+
 def player_with_longest_name
     longest_name = ""
     game_hash.each do |location, team_data|
@@ -187,6 +186,7 @@ end
 end
     longest_name
 end
+
 def long_name_steals_a_ton?
     most_steals = 0
     stealy_player = ""
