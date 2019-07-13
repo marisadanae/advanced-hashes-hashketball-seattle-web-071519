@@ -1,6 +1,6 @@
 require "pry"
 def game_hash
-    hash = { 
+    hash = {
 :home => {
 :team_name => "Brooklyn Nets",
 :colors => ["Black", "White"],
@@ -54,7 +54,7 @@ return team_data[:colors] if team_data[:team_name] == team
 end
 end
 
-def team_names  
+def team_names
     game_hash.collect do |location, team_data|
         team_data[:team_name]
 end
