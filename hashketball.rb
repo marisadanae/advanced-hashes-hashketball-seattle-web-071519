@@ -65,7 +65,7 @@ def num_points_scored(team_name)
 end
 end
 end
-end 
+end
 
 def shoe_size(team_member)
   game_hash.each do | hash, team_name|
@@ -76,7 +76,7 @@ end
 end
 end
 end 
-  
+
 
 
 def team_colors(team)
