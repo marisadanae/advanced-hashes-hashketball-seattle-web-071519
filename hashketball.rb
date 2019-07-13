@@ -58,9 +58,15 @@ end
 #end end end end
 
 def num_points_scored(team_name)
-  game_hash.each do |location, team_data|
-    binding.pry
-
+  game_hash.each do |person, team_data|
+    game_hash.each do |attribute, data|
+      if attribute == :player_name
+        data.each do |points|
+    puts "#{points}: #{player_name}"
+end 
+end 
+end 
+end 
 
 
 def shoe_size(team_member)
