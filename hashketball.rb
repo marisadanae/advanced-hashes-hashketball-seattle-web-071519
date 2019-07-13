@@ -75,6 +75,7 @@ def shoe_size(team_member)
 end
 end
 end
+puts [:shoe_size]
 end 
 
 
