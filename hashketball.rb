@@ -76,7 +76,7 @@ end
 end
 end
 puts [:shoe_size]
-end 
+end
 
 
 
