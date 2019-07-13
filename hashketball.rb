@@ -63,7 +63,7 @@ def num_points_scored(team_name)
        if player_name == :points
       player_name.each do |points|
 end
-puts "#{points:} = #{player_name:}"
+puts "#{[points:]} = #{[player_name:]}"
 end
 
 def shoe_size(team_member)
