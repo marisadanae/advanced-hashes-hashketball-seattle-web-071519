@@ -6,7 +6,7 @@ def game_hash
  :home => {
  :team_name => "Brooklyn Nets",
  :colors => ["Black", "White"],
- :players => {[
+ :players => [
 
     "Andy Anders" => { player_name: "Andy Anderson", number:  0, shoe: 16, points: 22,rebounds: 12, assists: 12, steals: 3,
                   blocks: 1, slam_dunks: 1},
@@ -30,7 +30,7 @@ def game_hash
   :team_name => "Charlotte Hornets",
   :colors => ["Turquoise", "Purple"],
 
-    :players => {[
+    :players => [
   "Jeff Adrien" => { player_name: "Jeff Adrien", number: 4, shoe: 18, points: 10,rebounds: 1, assists: 1, steals: 2,
           blocks: 7, slam_dunks: 2},
 
@@ -46,7 +46,7 @@ def game_hash
     "Kemba Walker" => { player_name: "Kemba Walker", number: 33, shoe: 15, points: 6,rebounds: 12, assists: 12, steals: 7,
           blocks: 5, slam_dunks: 12},
         ]
-      }
+      
     }
 end
 # .each{ |pair| p pair} #=> [:]
