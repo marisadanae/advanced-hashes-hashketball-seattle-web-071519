@@ -209,4 +209,3 @@ end
 end
     stealy_player == player_with_longest_name
 end
-
