@@ -57,6 +57,7 @@ def game_hash
         ]
 
     }
+  }
 end
 # .each{ |pair| p pair} #=> [:]
 
