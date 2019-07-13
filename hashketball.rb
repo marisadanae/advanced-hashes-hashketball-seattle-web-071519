@@ -46,7 +46,7 @@ def game_hash
     "Kemba Walker" => { player_name: "Kemba Walker", number: 33, shoe: 15, points: 6,rebounds: 12, assists: 12, steals: 7,
           blocks: 5, slam_dunks: 12},
         ]
-      
+
     }
 end
 # .each{ |pair| p pair} #=> [:]
@@ -71,7 +71,7 @@ end
 
 def shoe_size(team_member)
 
-end 
+end
 
 def team_colors(team)
   game_hash.each do |location, team_data|
