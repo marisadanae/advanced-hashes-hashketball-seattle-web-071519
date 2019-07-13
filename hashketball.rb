@@ -67,11 +67,12 @@ end
 #end end end end
 
 def num_points_scored(team_name)
-  game_hash.each_pair do |person, team_data|
-    game_hash.each_pair do |attribute, data|
-      if attribute == :player_name
-        data.each_pair do |points|
-    puts "#{points}: #{player_name}"
+  game_hash.each do |location, team_data|
+        team_data.each do |attribute, data|
+# if attribute == :players
+if attribute == :players
+            data.each do |player|
+return player[:points] if player[:player_name] == team_member
 end
 end
 end
