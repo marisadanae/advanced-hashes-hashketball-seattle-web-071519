@@ -62,9 +62,9 @@ def num_points_scored(team_name)
      team_name.each do | player_name, points|
        if player_name == :points
       player_name.each do |points|
-end 
+end
 puts "#{points:} = #{player_name:}"
-end 
+end
 
 def shoe_size(team_member)
   game_hash.each do |location, team_data|
