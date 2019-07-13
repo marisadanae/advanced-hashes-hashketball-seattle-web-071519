@@ -63,10 +63,10 @@ def num_points_scored(team_name)
       if attribute == :player_name
         data.each do |points|
     puts "#{points}: #{player_name}"
-end 
-end 
-end 
-end 
+end
+end
+end
+end
 
 
 def shoe_size(team_member)
